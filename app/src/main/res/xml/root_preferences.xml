@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="example_switch"
+        android:title="推送开关"
+        android:summary="打开以获得日历通知"
+        android:defaultValue="false" />
+
+
+    <SwitchPreferenceCompat
+        android:key="example_switch"
+        android:title="夜间开关"
+        android:summary="打开以变成夜间模式"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="example_switch"
+        android:title="隐私开关"
+        android:summary="打开以变成隐私模式"
+        android:defaultValue="false" />
+
+    <EditTextPreference
+        android:key="example_text"
+        android:title="Example Text"
+        android:summary="An example text preference"
+        android:dialogTitle="Enter your text" />
+
+</PreferenceScreen>
